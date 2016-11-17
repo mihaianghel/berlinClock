@@ -3,7 +3,7 @@ Berlin Clock
 
 ##Summary
 
-This application is an implementation of the berlin clock. Based on the input from the command line, it displays the berlin clock representation. 
+This application is a simplified implementation of the Berlin Clock. Based on the input from the command line, displays the time in the berlin clock structure.
 
 ####The frameworks and libraries that were used are:
 * **Java 8**
