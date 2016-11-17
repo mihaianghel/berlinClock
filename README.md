@@ -24,3 +24,16 @@ and then run the application by typing
 ```
 java -jar target\berlinClock-1.0-SNAPSHOT.jar
 ```
+
+
+##Example output
+For input 17, 03, 42 (17:03:42), the output is the following: 
+```
+      Y
+ R  R  R  O
+ R  R  O  O
+OOOOOOOOOOOO
+ Y  Y  Y  O
+ ```
+![BerlinClock](https://raw.githubusercontent.com/mihaianghel/berlinClock/master/src/main/resources/berlinClock.jpg "BerlinClock")
+
