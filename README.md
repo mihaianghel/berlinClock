@@ -19,9 +19,10 @@ The application receives three parameters from the command line, representing th
 
 
 ##States of the lamps
-Lamp representing seconds - YELLOW(Y) / OFF(O)
-Lamps representing hours - RED(R) / OFF(O)
-Lamps representing minutes 
+
+* Lamp representing seconds - YELLOW(Y) / OFF(O)
+* Lamps representing hours - RED(R) / OFF(O)
+* Lamps representing minutes
     - lamps 3,6,9 on the first row : RED(R) / OFF(O)
     - all other lamps: YELLOW(Y) / OFF(O)
 
