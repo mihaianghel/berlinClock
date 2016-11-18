@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
 
 public class MinutesProcessor implements Processor {
 
-    private static String ROW_TEMPLATE = "%s%s%s%s%s%s%s%s%s%s%s%s\n %s  %s  %s  %s ";
+    private static String ROW_TEMPLATE = "%s%s%s%s%s%s%s%s%s%s%s\n %s  %s  %s  %s ";
 
     public String process(int data) {
 
@@ -21,7 +21,7 @@ public class MinutesProcessor implements Processor {
 
     private List<String> getSequenceForFiveMinuteRow(int noOfLightsOn) {
         return IntStream
-                .rangeClosed(1, 12)
+                .rangeClosed(1, 11)
                 .mapToObj(i -> {
                     if (i <= noOfLightsOn) {
                         return (i % 3 == 0) ? LightState.RED.getCode() : LightState.YELLOW.getCode();

@@ -14,7 +14,7 @@ public class EndToEndTest {
         Assert.assertEquals("      O     \n" +
                             " R  R  R  R \n" +
                             " R  R  O  O \n" +
-                            "YYRYYROOOOOO\n" +
+                            "YYRYYROOOOO\n" +
                             " Y  Y  Y  O "
                             , berlinTime);
     }
