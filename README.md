@@ -39,7 +39,7 @@ java -jar target\berlinClock-1.0-SNAPSHOT.jar
 
 
 ##Example output
-For input 17, 03, 42 (17:03:42), the output is the following: 
+For input 16, 52, 21 (16:52:21), the output is the following: 
 ```
       O
  R  R  R  O
