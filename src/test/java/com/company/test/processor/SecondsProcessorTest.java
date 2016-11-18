@@ -3,7 +3,7 @@ package com.company.test.processor;
 import org.junit.Test;
 
 import static com.company.test.processor.SecondsProcessor.*;
-import static com.company.test.state.LightState.*;
+import static com.company.test.state.LampState.*;
 import static org.junit.Assert.*;
 
 public class SecondsProcessorTest {

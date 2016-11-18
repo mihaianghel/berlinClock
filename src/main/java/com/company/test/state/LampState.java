@@ -1,7 +1,9 @@
 package com.company.test.state;
 
-
-public enum LightState {
+/**
+ * Possible states of the lamps
+ */
+public enum LampState {
 
     RED ("R"),
     YELLOW ("Y"),
@@ -9,7 +11,7 @@ public enum LightState {
 
     private String code;
 
-    LightState(String code) {
+    LampState(String code) {
         this.code = code;
     }
 

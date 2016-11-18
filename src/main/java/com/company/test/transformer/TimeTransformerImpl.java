@@ -4,6 +4,10 @@ import com.company.test.processor.HoursProcessor;
 import com.company.test.processor.MinutesProcessor;
 import com.company.test.processor.SecondsProcessor;
 
+/**
+ * Implementation of the time transformer responsible for calling
+ * specific processors for each unit of time
+ */
 public class TimeTransformerImpl implements TimeTransformer {
 
     private static final String DELIMITER = "\n";

@@ -3,6 +3,9 @@ package com.company.test.clock;
 import com.company.test.transformer.TimeTransformer;
 import com.company.test.transformer.TimeTransformerImpl;
 
+/**
+ * Implementation of the Clock interface, displaying time in the Berlin Clock structure
+ */
 public class BerlinClock implements Clock {
 
     private TimeTransformer transformer = new TimeTransformerImpl();

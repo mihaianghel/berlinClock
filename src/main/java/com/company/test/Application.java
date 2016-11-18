@@ -6,6 +6,9 @@ import com.company.test.validator.TimeValidator;
 
 import java.util.Scanner;
 
+/**
+ * Driver of the application
+ */
 public class Application {
 
     private static Clock clock = new BerlinClock();
