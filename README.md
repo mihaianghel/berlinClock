@@ -1,4 +1,4 @@
-1. Berlin Clock
+Berlin Clock
 ============
 
 ##Summary
